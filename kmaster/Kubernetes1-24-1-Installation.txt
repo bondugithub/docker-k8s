@@ -72,6 +72,8 @@ EOF
 10. Reload it 
 sudo sysctl --system
 
+yum install docker -y
+
 11. Install Docker runtime
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
